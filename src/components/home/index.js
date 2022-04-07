@@ -21,7 +21,7 @@ class Home extends Component {
     this.setState({
       tagType: type || 'all',
     });
-    console.log(this.state.tagType);
+    // console.log(this.state.tagType);
     this.getPostData(type).then(res => {
       if (res.status === 200) {
         this.setState({
