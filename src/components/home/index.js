@@ -21,13 +21,12 @@ class Home extends Component {
     this.setState({
       tagType: type || 'all',
     });
-    // console.log(this.state.tagType);
     this.getPostData(type).then(res => {
       if (res.status === 200) {
         this.setState({
           postList: res.data.data,
         });
-        console.log(res.data.data);
+        // console.log(res.data.data);
       } else {
         console.error(res.statusText);
       }
@@ -51,6 +50,7 @@ class Home extends Component {
           this.setState({
             postList: res.data.data,
           });
+          // console.log(res.data.data);
         } else {
           console.error(res.statusText);
         }
