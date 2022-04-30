@@ -50,7 +50,6 @@ class Home extends Component {
           this.setState({
             postList: res.data.data,
           });
-          // console.log(res.data.data);
         } else {
           console.error(res.statusText);
         }
