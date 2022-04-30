@@ -23,11 +23,8 @@ https://wesliedebug.github.io/cNode/
 
 ## TODOLIST
 
-- [x] 首页组件化展示
-- [x] 基于文章类型的前端路由添加
-- [x] 基于文章详情的前端路由添加
-- [x] 文章详情页的展示
-- [x] 文章评论的显示
+- [x] 客户端页面展示
+- [x] 侧边栏积分榜显示
 
 ## npm scripts
 
@@ -69,3 +66,6 @@ react 中 jsx 语法中给 html 绑定属性值，部分属性名称发生变化
 ## 写在最后
 
 感谢 [CNode](https://cnodejs.org/) 社区的提供的 API，一个有温度的社区。
+
+## 笔记
+
