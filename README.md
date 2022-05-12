@@ -57,11 +57,7 @@ react 中使用 react-router 进行前端路由的管理，同样含有 HashRout
 
 react 中 jsx 语法中给 html 绑定属性值，部分属性名称发生变化，如 class 需要写成 className, for 需要写成 htmlFor，内联样式 style 属性需要使用驼峰的写法等。
 
-- 组件之间的通信
 
-目前仅仅实践了父子组件的通信，通过 props 传参。至于非父子组件之间的通信如何来实现，尚未涉及，redux 以及 react-redux 在该项目中并未得到体现。
-
-另外该仿 CNode.js 社区的 react 项目，仅仅通过部分API完成了首页以及文章详情页的一些展示，添加了 react 的前端路由，目的在于体会 react 技术栈的开发方式，尚不足以谈最佳实践。
 
 ## 写在最后
 
