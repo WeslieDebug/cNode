@@ -1,3 +1,6 @@
+## 前言
+该项目于2022年1月至2022年4年在大学期间学习react知识所写，目前该项目已停止
+
 ## cnode-react-app
 
 > 一个学习  reactjs 的 demo，基于 CNode 社区提供的 API,以 react 组件化的开发思路，练习了基于 react 技术栈为主的前端单页面开发方式。
